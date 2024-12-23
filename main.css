@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+*body {
+  padding: 0px;
+  margin: 0px;
+  width: 1440px;
+  font-family: Rubik;
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#center {
+  margin-top: 70px;
+  padding-top: 40px;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 100px;
+}
+
+#container_center {
+  height: 510px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.centerbox {
+  height: 510px;
+  width: 408px;
+}
+
+.centerbox:nth-child(2) {
+  padding: 40px 20px 20px 20px;
+  font-family: Rubik;
+}
+.centerbox h2 {
+  font-size: 30px;
+}
+/*Beginning of the boxes side  */
+.centerbox pre {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#backside_bottom{
+    width: 100%;
+    background-color: rgb(240, 231, 216);
+}
+
+#title1{
+width: 100%;
+padding-top: 60px;
+}
+
+#title1 h1{
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+}
+#title1 p{
+    width: 400px;
+    text-align: center;
+margin-left: 400px;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+}
+
+
+#mainbox{
+height: 760px;
+margin-top: 55px;
+display: flex;
+justify-content: space-around;
+
+}
+
+
+.box2{
+height: 760px;
+width: 330px;
+background-color: white;
+border-radius: 10px;
+padding-top: 7%;
+border: dodgerblue 1px solid;
+box-sizing: border-box;
+}
+
+.box2 img{
+    margin-left: 25%;
+}
+
+.box2 h1{
+    text-align: center;
+font-family: Rubik;
+font-size: 35px;
+font-weight: 500;
+}
+
+.box2 pre{
+    margin-top: 20px;
+    padding-left: 25%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Rubik;
+    margin-bottom: 70px;
+
+}
+
+.box2 button{
+   margin-left: 20%;
+    font-family: Rubik;
+    font-weight: 500;
+    width: 177px;
+    height: 45px;
+    border-radius: 25px;
+}
+
+
+.box2 button:hover{
+   background-color:#F53838 ;  
+color: white;
+}
+ 
+
+
+.box2:hover{
+    height: 775px;
+    width: 340px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 7%;
+    border: red 1px solid;
+    box-sizing: border-box;
+    }
+
+
+
+
+
+#title2{
+  width: 100%;
+padding-top: 60px;
+  }
+
+#title2 h1{
+  margin-left: 400px;
+  text-align: center;
+  width: 400px;
+  font-family: Rubik;
+  font-size: 35px;
+ 
+}
+
+#title2 p{
+  width: 650px;
+  text-align: center;
+margin-left: 250px;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 400
+}
+
+
+
+.world{
+  width: 1060px;
+height: 537.77px;
+margin-left: auto;
+margin-right: auto;
+background-image: url(/images/Vector.png);
+background-color: rgba(255, 255, 255, 0.5);
+margin-top: 100px;
+box-sizing: border-box;
+
+}
+
+.points{
+  width: 25px;
+  height: 25px;
+  background-color:#F53838 ;
+border-radius: 50%;
+
+}
+
+
+.points:nth-child(1){
+margin-left: 400px;
+margin-top: 200px;
+
+}
+
+
+.points:nth-child(2){
+  margin-left: 400px;
+margin-top: 200px;
+}
+
+
+
+.points:nth-child(3){
+  margin-left: 400px;
+margin-top: 200px;
+}
+
+
+.points:nth-child(4){
+  margin-left: 400px;
+margin-top: 200px;
+}
+
+
+.points:nth-child(5){}
+
+
+.points:nth-child(6){
+  margin-left: 400px;
+margin-top: 200px;
+}
